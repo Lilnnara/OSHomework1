@@ -1,0 +1,384 @@
+Script started on 2024-09-18 11:40:14-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="63"]
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7mwho[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwho
+[A
+[?2004lmqvu     pts/0        2024-09-18 11:37 (172.20.45.237)
+bjcheng  pts/1        2024-09-18 10:38 (172.20.43.162)
+nsmacias2 pts/2        2024-09-18 10:56 (172.20.44.27)
+jelechuga pts/4        2024-09-18 11:18 (172.20.41.72)
+ajgonzalezp pts/5        2024-09-18 11:30 (172.20.41.8)
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7muptime[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuptime
+[A
+[?2004l 11:40:27 up 146 days, 29 min,  5 users,  load average: 0.00, 0.00, 0.00
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7mcat /proc/cpuinfo[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /proc/cpuinfo
+[A
+[?2004lprocessor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 3133.069
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 3193.927
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 8
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 3116.285
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 4
+cpu cores	: 8
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 2557.946
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 5
+cpu cores	: 8
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 4
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 2460.943
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 8
+cpu cores	: 8
+apicid		: 8
+initial apicid	: 8
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 5
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 3193.138
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 9
+cpu cores	: 8
+apicid		: 9
+initial apicid	: 9
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 6
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 1812.598
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 12
+cpu cores	: 8
+apicid		: 12
+initial apicid	: 12
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 7
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 49
+model name	: AMD EPYC 7232P 8-Core Processor
+stepping	: 0
+microcode	: 0x8301055
+cpu MHz		: 2146.376
+cache size	: 512 KB
+physical id	: 0
+siblings	: 8
+core id		: 13
+cpu cores	: 8
+apicid		: 13
+initial apicid	: 13
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca sme sev sev_es
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed srso
+bogomips	: 6188.37
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ cat /proc/cpuinfo[K[7mfree -h[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfree -h
+[A
+[?2004l               total        used        free      shared  buff/cache   available
+Mem:            31Gi       6.3Gi       3.0Gi       3.0Mi        21Gi        24Gi
+Swap:          555Gi       1.6Gi       553Gi
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7mless nanpa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cless nanpa
+[A
+[?2004l[?1049h[22;0;0t[?1h=201200Jersey City NJ           
+201202Hackensack NJ            
+201203Hackensack NJ            
+201204Jersey City NJ           
+201205Jersey City NJ           
+201206Hackensack NJ            
+201207Newark NJ                
+201208Jersey City NJ           
+201209Jersey City NJ           
+201210Union City NJ            
+201212Hackensack NJ            
+201213Morristown NJ            
+201214Hackensack NJ            
+201215Bayonne NJ               
+201216Jersey City NJ           
+201217Jersey City NJ           
+201218Hackensack NJ            
+201219Jersey City NJ           
+201220Hackensack NJ            
+201221Hackensack NJ            
+201222Jersey City NJ           
+201223Union City NJ            
+201224Cliffside NJ             
+201225Oradell NJ               
+201226Hackensack NJ            
+201227Englewood NJ             
+201228Leonia NJ                
+201229Hackensack NJ            
+201230Succasunna NJ            
+201231Rutherford NJ            
+201232Jersey City NJ           
+201233Cliffside NJ             
+201234Jersey City NJ           
+201235Hackensack NJ            
+201236Ramsey NJ                
+201237Rutherford NJ            
+201238Jersey City NJ           
+201239Jersey City NJ           
+201240Jersey City NJ           
+201241Jersey City NJ           
+201242Leonia NJ                
+201243Bayonne NJ               
+201244Dumont NJ                
+201245Hackensack NJ            
+201246Kearny NJ                
+201247Caldwell NJ              
+201248Ramsey NJ                
+201249Fair Lawn NJ             
+201250Hackensack NJ            
+201251Ridgewood NJ             
+201252Cragmere NJ              
+201253Jersey City NJ           
+201254Fair Lawn NJ             
+201255Union City NJ            
+201256Closter NJ               
+201257Hasbrouck H NJ           
+201258Ramsey NJ                
+201259Newark NJ                
+201261Oradell NJ               
+201262Oradell NJ               
+201263Westwood NJ              
+201264Ramsey NJ                
+[7mnanpa[27m[K[K [K::[Kqq[K[?1l>[?1049l[23;0;0t[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7mwc -l nanpa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l nanpa
+[A
+[?2004l166482 nanpa
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7mhead -n 17 nanpa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -n 17 nanpa
+[A
+[?2004l201200Jersey City NJ           
+201202Hackensack NJ            
+201203Hackensack NJ            
+201204Jersey City NJ           
+201205Jersey City NJ           
+201206Hackensack NJ            
+201207Newark NJ                
+201208Jersey City NJ           
+201209Jersey City NJ           
+201210Union City NJ            
+201212Hackensack NJ            
+201213Morristown NJ            
+201214Hackensack NJ            
+201215Bayonne NJ               
+201216Jersey City NJ           
+201217Jersey City NJ           
+201218Hackensack NJ            
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ [7mtail -n 42 nanpa[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -n 42 nanpa
+[A
+[?2004l989921Saginaw MI               
+989922Bay City MI              
+989923Midland MI               
+989924Alma MI                  
+989925Manistee Ri MI           
+989926Midland MI               
+989928Saginaw MI               
+989929Bay City MI              
+989932Durand MI                
+989934Rose City MI             
+989935Clare MI                 
+989936Owosso MI                
+989938Grace Harbo MI           
+989939Chester MI               
+989941Midland MI               
+989942West Branch MI           
+989943Middleton MI             
+989944Mount Pleas MI           
+989945Ovid MI                  
+989946Standish MI              
+989948Midland MI               
+989949McBrides MI              
+989953Mount Pleas MI           
+989954Mount Pleas MI           
+989956Mount Pleas MI           
+989962Minden City MI           
+989963Elkton MI                
+989964Saginaw MI               
+989965Gladwin MI               
+989966Vanderbilt MI            
+989967Remus MI                 
+989968Alma MI                  
+989971Saginaw MI               
+989975Bad Axe MI               
+989977Sebewaing MI             
+989979St Johns MI              
+989980Saginaw MI               
+989981Hubbardston MI           
+989983Vanderbilt MI            
+989984East Tawas MI            
+989992Saginaw MI               
+989996Saginaw MI               
+[?2004h]0;nsmacias2@dandelion: ~[01;32mnsmacias2@dandelion[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-09-18 11:41:15-06:00 [COMMAND_EXIT_CODE="0"]
