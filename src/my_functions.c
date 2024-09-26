@@ -43,3 +43,19 @@ int my_file_puts(int fd, const char *s)
     // return 0 to inidcate sucess
     return 0; 
 }
+
+int str_cmp(const char *s1, const char *s2) {
+  return str_n_cmp(s1, s2, (size_t)-1);
+}
+
+int str_n_cmp(const char *s1, const char *s2, size_t n) {
+  if (n == 0) return 0;
+
+  while (n-- && *s1 != '\0' && *s1 == *s2) {
+    s1++;
+    s2++;
+  }
+  return ((const unsigned char)*s1) - ((const unsigned char)*s2);
+}
+
+
